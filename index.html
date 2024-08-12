@@ -1,37 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <title>Oscar-Dodatki</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet"></head>
 
     <body>
         <header>
-            <nav>
-            <div class="logo">
-            <h4>THE NAV</h4></div>
-                <ul class="nav_links">
+                <div class="logo">
+                    <h4 style="font-family: 'Cinzel', serif;"><a class="oscar" href="#">Oscar-Reklama</a></h4>
+                </div>
+                <ul class="nav-links">
                     <li>
-                        <a href="#">Strona Głowna</a>
+                        <a href="index.html">O firmie</a>
                     </li>
                     <li>
-                        <a href="#">Oferta</a>
+                        <a href="Oferta.html">Oferta</a>
                     </li>
                     <li>
-                        <a href="#">Galeria</a>
+                        <a href="Galeria.html">Galeria</a>
                     </li>
                     <li>
-                        <a href="#">Kontakt</a>
+                        <a href="kontakt.html">Kontakt</a>
                     </li>
                 </ul>
-                <div class="burger">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-            </nav>
-
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
         </header>
+        <div class="slider-container">
+            <div class="slider">
+              <div class="slide">
+                <img src="zdjecia/koronkii.jpg" alt="Slide 1">
+                <div class="image-info">
+                    <h2>Koronki</h2>
+                    <p>Oferujemy modne i eleganckie<br> koronki
+                         w różnej kolorystycje.
+                    <h2><a class="zobacz" href="#">Zobacz</a></h2>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="zdjecia/432.jpg" alt="Slide 2">
+                <div class="image-info">
+                    <h2>Dzianiny</h2>
+                    <p>W naszej ofercie znajdziecie bogaty asortyment wysokiej jakości dzianin<br> Dzianiny
+                         w różnej kolorystycje.</p>
+                    <h2><a class="zobacz" href="#">Zobacz</a></h2>
+            
+                </div>
+              </div>
+              <div class="slide">
+                <img src="zdjecia/tasmy1.jpg" alt="Slide 3">
+                <div class="image-info">
+                    <h2>Taśmy</h2>
+                    <p>Oferujemy modne i eleganckie<br> koronki
+                         w różnej kolorystycje.</p>
+                    <h2><a class="zobacz" href="#">Zobacz</a></h2>
+                </div>
+              </div>  
+            </div>
+            <button class="prev-slide">Wróć</button>
+            <button class="next-slide">Dalej</button>
+        </div>
+        <div class="polacz">
+            <section class="content">   
+                <h2 class="tittle-content">DODATKI BIELIŹNIARSKIE - HURTOWNIA OSCAR</h2>
+                <u class="text-content">Jesteśmy importerem dodatków do produkcji
+                    bielizny oraz wszelkich akcesoriów. Prowadzimy hurtownię pasmanteryjną <span style="text-decoration: dashed"> Łodzi na ul.Gdańskiej 101</span>
+                    Jesteśmy firmą specjalizującą się w imporcie najwyższej jakości dodatków
+                    do bielizny. Od wielu lat działamy na rynku, co pozwoliło nam zdobyć bogate
+                        doświadczenie w branży. Nasza oferta skierowana
+                        jest do producentów bielizny,
+                        którzy poszukują wyjątkowych i wysokiej jakości elementów,
+                        aby wzbogacić swoje kolekcje.
+                        <a href="#" class="czytaj-dalej">Czytaj Dalej <div class="arrow right"></div></a>
+                    <br><br><a href="#" class="poznaj-oferte">Poznaj Oferte <div class="arrow right"></div></a>
+                </u>
+            </section>
+            <aside class="galeria">
+                <div class="linked-graphics-container">
+                    <!-- Linked Graphic 1 -->
+                    <a href="link1.html" class="linked-graphic">
+                        <img src="zdjecia/koro.jpg" alt="Graphic 1"><div class="text-overlay">Koronki</div>
+                    </a>
+                    <!-- Linked Graphic 2 -->
+                    <a href="link2.html" class="linked-graphic">
+                        <img src="zdjecia/dzianiny.jpg"alt="Graphic 2"><div class="text-overlay">Dzianiny</div>
+                    </a>
+                    <!-- Linked Graphic 3 -->
+                    <a href="link3.html" class="linked-graphic">
+                        <img src="zdjecia/koronki.jpg" alt="Graphic 3"><div class="text-overlay">Akcesoria</div>
+                    <!-- Linked Graphic 4 -->
+                    <a href="link4.html" class="linked-graphic">
+                        <img src="zdjecia/432.jpg" alt="Graphic 4"><div class="text-overlay">Materiały</div>
+                    </a>
+                </div>
+            </aside>
+        </div>
+        <footer class="info-footer">
+            <span class="footer-span" style="font-weight: 500;"> <img src="zdjecia/icon-mail.png">biuro@oscar-dodatki.pl</span>
+            <span class="footer-span" style="font-weight: 500;"> <img src="zdjecia/icon-mail.png"> import@oscar-dodatki.pl</span>
+            <span class="footer-span"style="font-weight: 500;"> <img src="zdjecia/icon-phone.png"> +48 502 152 134</span>
+            <span class="footer-span" style="padding-left:65px;font-weight: 500;"> <img src="zdjecia/icon-home.png"> Otwarte: pn-pt w godz. 8-16</span>
+        </footer>
         <script src="app.js"></script>
     </body>
 </html>
