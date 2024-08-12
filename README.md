@@ -17,4 +17,8 @@ The website was built using the following technologies:
 - **Product Catalog**: A comprehensive list of products available for purchase.
 - **Responsive Design**: The site is optimized for use on both desktop and mobile devices.
 - **User-Friendly Navigation**: Simple and intuitive navigation for easy browsing.
+
+
+
+
 ![Opis](./images/main_page.PNG)
